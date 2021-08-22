@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: #001326;
+    opacity: 0.8;
+}
+.nav_bac{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.logo{
+    text-align: left;
+}
+.logo img{
+    width: 60px;
+    height: auto;
+}
+.navigation{
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+}
+.navigation ul{
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+}
+.navigation li{
+    padding: 5px;
+    list-style-type: none;
+    transition: transform 0.5s;
+}
+.navigation li:hover{
+    transform: scale(0.8);
+}
+.navigation a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 20px;
+}
+.navigation a:hover{
+    text-decoration: underline;
+    color:  #42d897;
+}
+.title{
+    color: white;
+    margin: 0 auto;
+    max-width: 1240px;
+}
+.title h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+    max-width: 500px;
+    margin-top: 100px;
+}
+.title p{
+    font-size: 20px;
+    padding-bottom: 45px;
+    max-width: 500px;
+}
+.title button{
+    color: #ffffff;
+    background-color: #42d897;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.title button:hover{
+    background-color:  #3cc087;
+}
+header{
+    background: url("src/ai-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.header{
+    background: url("src/ai-bg.jpg") no-repeat center center;
+    background-size: cover;
+    height: 45vh
+}
+.introduction{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: justify;
+}
+.ai_intro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1240px;
+}
+.intro_image{
+    padding-right: 30px;
+}
+.intro_info{
+    padding-left: 30px;
+    font-size: 20px;
+}
+.intro_info h1{
+    font-size: 30px;
+    padding-bottom: 2px;
+    color: #08153e;
+}
+.p_s{
+    padding-top: 25px;
+}
+.p_s_2{
+    padding-top: 20px;
+}
+.understanding_ai{
+    margin-top: 140px;
+    margin-bottom: 100px;
+    text-align: justify;
+}
+.understanding_img img{
+    width: 500px;
+    height: auto;
+}
+.introduction_img img{
+    width: 500px;
+    height: auto;
+}
+.understanding_ai_info{
+    margin-right: 60px;
+}
+.video_title{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.video_title h1{
+    font-size: 30px;
+    padding-bottom: 5px;
+    color: #08153e;
+}
+.Video_understand{
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+.keytakeaways{
+    font-size: 15px;
+    color: #08153e;
+}
+.key_bac{
+    background-color: #e8edfc;
+    margin-bottom: 10px;
+    margin-top: 10spx;
+    height: 85px;
+    width: 500px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.key_bac img{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+
+/*-----------Landmark page style-------------*/
+
+.page_title h1{
+    font-size: 40px;
+    color: #ffffff;
+    margin: 13vh auto;
+    text-align: center;
+}
+.landmark_info{
+    display: flex;
+    flex-direction: row;
+}
+.landmark{
+    margin: 0 auto;
+    max-width: 1240px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+.landmark-header h1{
+    font-size: 28px;
+    margin-bottom: 60px;
+    color: #08153e;
+}
+.landmark_info_top p{
+    font-size: 18px;
+    margin-right: 40px;
+    text-align: justify;
+    margin-top: 0;
+    color: #888888;
+}
+.t_m{
+    margin-top: 28px;
+}
+
+/*-----------Landmark page style End-------------*/
+
+/*-----------Use Of Covid page style -------------*/
+.title_covid h1{
+    margin-top: 50px;
+    padding-bottom: 30px;
+    color: #08153e;
+}
+.title_covid h2{
+    margin-bottom: 20px;
+}
+.title_covid h3{
+    margin-bottom: 16px;
+}
+.title_covid p{
+    margin-bottom: 25px;
+    color: #888888;
+    text-align: justify;
+}
+.covid_info_title{
+    margin: 0 auto;
+    max-width: 1240px;
+    padding-bottom: 60px;
+}
+.covid_re_img h4{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    color: #08153e;
+    text-decoration: underline;
+}
+.covid_re_img img{
+    width: 500px;
+    display: flex;
+    align-content: center;
+}
+/*-----------Use Of Covid page style End-------------*/
+
+/*-----------Footer page style-------------*/
+
+.f_head{
+    background-color: #08153e;
+    color: #ffffff;
+    height: 20vh;
+}
+.c_l_a{
+    float: left;
+}
+.c_r_a{
+    float: right;
+}
+.content{
+    margin: 0 auto;
+    max-width: 1240PX;
+    padding-top: 40px;
+}
+/*-----------Footer page style End-------------*/
